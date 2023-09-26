@@ -4,16 +4,16 @@
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
-// @match        *://*/*
+// @match        https://weread.qq.com/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        GM_addStyle
 // ==/UserScript==
 
 (function() {
-    'use strict';
+  'use strict';
 
 
-      GM_addStyle ( `
+  GM_addStyle(`
     body, button, input, select, textarea {
     font-family: LXGW Neo XiHei,LXGW WenKai,Lucida Grande;
     outline: none;
@@ -34,7 +34,3 @@
 ` );
 
 })();
-
-
-
-
